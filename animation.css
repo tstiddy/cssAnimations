@@ -12,11 +12,11 @@
     background-color: blue;
     transition: transform 0.5s ease;
 }
-/* 
+
 .square2 {
     background-color: orange;
     transition: transform 0.5s ease-in;
-} */
+}
 
 .container:hover .square {
     transform: translateX(300px);
