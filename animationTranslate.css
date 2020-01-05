@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    margin: 0 40px;
+    transition: transform 0.5s linear;
+}
+
+.square1 {
+    background-color: darkgreen;
+}
+
+.square1:hover {
+    transform: translateX(15px);
+}
+
+.square2 {
+    background-color: darkgrey;
+}
+
+.square2:hover {
+    transform: translateY(50px);
+}
+
+.square3 {
+    background-color: darkmagenta;
+}
+
+.square3:hover {
+    transform: translateX(-15px);
+}
+
+.square4 {
+    background-color: darkorange;
+}
+
+.square4:hover {
+    transform: translateY(-30px);
+}
+
+.square5 {
+    background-color: darkred;
+}
+
+.square5:hover {
+    transform: translate(15px, -40px);
+}
