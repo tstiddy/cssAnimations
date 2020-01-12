@@ -1,0 +1,13 @@
+.square {
+    background-color: blueviolet;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    margin: 100px auto;
+    border: 10px solid #247ba0;
+    transition: border-color 0.5s ease-in 0.3s;
+}
+
+.square:hover {
+    border-color: #ff1654;
+}
