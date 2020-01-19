@@ -8,7 +8,7 @@
 
 @keyframes move {
     0% {top: 0px; background: chartreuse; width: 100px;}
-    /* [when animation stats] {changes size and colour of square} */
+    /* [when animation starts] {changes size and colour of square} */
     50% {top: 30px; background: darkred; width: 400px;}
     100% {top: 200px; background: darkblue; width: 300px;}
 }
